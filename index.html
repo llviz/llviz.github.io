@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5;url=http://xkcd.com/404">
+    <script type="text/javascript">
+      var dest = ["http://xkcd.com/404", "http://404.org"];
+
+      var redirect404 = function() {
+        var go = Math.floor(2*Math.random());
+        window.location.href = dest[go];
+      };
+    </script>
+    <title>Welcome to LLviz</title>
+  </head>
+  <body onload="redirect404()">
+    Enjoy your stay, or...<br/>
+    If you are not redirected automatically, follow the <a href='http://xkcd.com/404/'>here</a>
+  </body>
+</html>
