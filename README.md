@@ -1,4 +1,4 @@
-# llviz.github.io
+# hq.llviz.tk
 
 Ỻ𝑣𝑖𝑧
 
